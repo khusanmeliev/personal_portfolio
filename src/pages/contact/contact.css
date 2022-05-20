@@ -184,8 +184,82 @@ textarea:focus {
   font-size: 25px;
   margin-left: 0;
 }
+.row__box .internet ul li:hover {
+  transform: translate(20%, -20%);
+  transition: 1s;
+}
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 480px) {
+  .contact_page {
+    width: 100%;
+    height: 170vh;
+  }
+  .contact_page .large {
+    width: 100%;
+    height: 100%;
+  }
+  .contact_page .large .box {
+    width: 95%;
+    height: 90%;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .contact_page .large .box .left {
+    width: 100%;
+    height: 80%;
+  }
+  .contact_page .large .box .left .title {
+    width: 90%;
+  }
+  .contact_page .large .box .left form {
+    width: 100%;
+    height: 80%;
+  }
+  .contact_page .large .box .left form input {
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+  }
+  .contact_page .large .box .left form textarea {
+    width: 90%;
+    height: 90px;
+  }
+  .contact_page .large .box .left form .btn button {
+    width: 50%;
+    height: 50%;
+    font-size: 20px;
+  }
+
+  .contact_page .large .box .right {
+    width: 100%;
+    height: 100%;
+  }
+  .contact_page .large .box .right .row .title {
+    width: 90%;
+    height: 20%;
+    font-size: 20px;
+  }
+  .contact_page .large .box .right .row .row__box {
+    width: 100%;
+    height: 80%;
+  }
+  .row .row__box .address {
+    width: 100%;
+    height: 50%;
+  }
+  .row .row__box .address ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .row .row__box .address ul li {
+    width: 90%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
   .contact_page {
     width: 100%;
     height: 170vh;

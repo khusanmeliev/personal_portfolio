@@ -251,7 +251,62 @@ body {
   letter-spacing: 2px;
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 480px) {
+  .about_page {
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .about_page .box {
+    width: 95%;
+    height: 90%;
+  }
+
+  .about_page .box .row {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .about_page .box .row .left {
+    width: 100%;
+    height: 50%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .about_page .box .row .left .greeting {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .about_page .box .row .left .greeting .img {
+    width: 95%;
+    height: 40%;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .about_page .box .row .left .greeting .img img {
+    width: 40%;
+    height: 90%;
+  }
+  .about_page .box .row .left .greeting .lists {
+    width: 95%;
+    height: 50%;
+    justify-content: flex-start;
+  }
+  .about_page .box .row .left .skill-bars {
+    width: 95%;
+    height: 60%;
+  }
+
+  .about_page .box .row .right {
+    width: 100%;
+    height: 50%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
   .about_page {
     width: 100%;
     height: 200vh;

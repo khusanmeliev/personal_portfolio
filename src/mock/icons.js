@@ -3,22 +3,22 @@ export const icons = [
     {
         id: 1,
         icon: <FaFacebookF />,
-        link: 'https://www.facebook.com/profile.php?id=100075372702764'
+        link: 'https://www.facebook.com/'
     },
     {
         id: 2,
         icon: <FaInstagram />,
-        link:'https://www.instagram.com/khusanmeliev'
+        link: 'https://www.instagram.com/'
     },
     {
         id: 3,
         icon: <FaLinkedin />,
-        link:'https://www.linkedin.com/in/khusan-meliev/'
+        link: 'https://www.linkedin.com/'
     },
     {
         id: 4,
         icon: <FaGithub />,
-        link:'https://www.github.com/in/khusan-meliev/'
+        link: 'https://www.github.com/'
     },
 
 ]
