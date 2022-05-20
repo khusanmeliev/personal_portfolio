@@ -15,6 +15,7 @@ export const icons = [
         icon: <FaLinkedin />,
         link: 'https://www.linkedin.com/'
     },
+
     {
         id: 4,
         icon: <FaGithub />,
